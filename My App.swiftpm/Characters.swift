@@ -2,7 +2,8 @@ import SwiftUI
 
 struct Characters: View {
     @EnvironmentObject var character : CharacterList
-    @State var newChar: Character = Character(name: "Gorilla", emoji: "🦍")
+    @State var newChar: Character = Character(name: "Gorilla", title: "🦍", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"])
+    var index = 0
     
     var body: some View {
         
@@ -12,7 +13,7 @@ struct Characters: View {
                     HStack(alignment: .center) {
                         Spacer()
                         Button(char.name) {
-                            newChar = Character(name: char.name, emoji: char.emoji)
+                            newChar = Character(name: char.name, title: char.title, birthday: char.birthday, showsAndMovies: char.showsAndMovies)
                             
                         }
                         .padding()
@@ -29,17 +30,18 @@ struct Characters: View {
                 Text(newChar.name.uppercased())
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                    .animation(.easeInOut, value: newChar.emoji)
+                    .animation(.easeInOut, value: newChar.title)
                     .foregroundColor(.blue)
                 
                 Spacer()
                 HStack {
                     
-                    Text(newChar.emoji)
+                    Text(newChar.title)
                         
                         .frame(minWidth: 125)
                         .scaledToFill()
-                        
+                    Text(newChar.birthday)
+//                  Iterate over each Movie/Show
                 }
                 Spacer()
                 

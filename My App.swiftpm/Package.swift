@@ -8,18 +8,18 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "My App",
+    name: "Star Wars 101",
     platforms: [
         .iOS("16.0")
     ],
     products: [
         .iOSApplication(
-            name: "My App",
+            name: "Star Wars 101",
             targets: ["AppModule"],
-            displayVersion: "1.0",
+            displayVersion: "0.9",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .bowl),
-            accentColor: .presetColor(.yellow),
+            appIcon: .placeholder(icon: .movieReel),
+            accentColor: .presetColor(.green),
             supportedDeviceFamilies: [
                 .pad,
                 .phone
@@ -29,7 +29,8 @@ let package = Package(
                 .landscapeRight,
                 .landscapeLeft,
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
-            ]
+            ],
+            appCategory: .reference
         )
     ],
     targets: [
