@@ -3,12 +3,12 @@ import SwiftUI
 
 class CharacterList : ObservableObject {
  @Published var characters = [
-    Character(name: "Anakin Skywalker", title: "🧔🏻", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
-    Character(name: "Obi Wan Kenobi", title: "👴🏻", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
-    Character(name: "Padme Amadalla", title: "👩🏻", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
-    Character(name: "Yoda", title: "🐊", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
-    Character(name: "Mace Windu", title: "👨🏿‍🦲", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
-    Character(name: "Emporer Palpatine", title: "👨🏼‍🦳", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
+    Character(name: "Anakin Skywalker", title: "Jedi Master", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
+    Character(name: "Obi Wan Kenobi", title: "Jedi Knight", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
+    Character(name: "Padme Amadalla", title: "Senator of Naboo", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
+    Character(name: "Yoda", title: "Master Jedi", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
+    Character(name: "Mace Windu", title: "Jedi Knight", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
+    Character(name: "Emporer Palpatine", title: "Emporer of the Republic", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"]),
 
     ]
 }

@@ -1,51 +1,26 @@
 import SwiftUI
 
 struct Characters: View {
-    @EnvironmentObject var character : CharacterList
-    @State var newChar: Character = Character(name: "Gorilla", title: "🦍", birthday: "09/10/1998", showsAndMovies: ["Revenge if the Sith"])
+    @EnvironmentObject var data : CharacterList
     var index = 0
     
     var body: some View {
         
         VStack {
-            HStack() {
-                List(character.characters) { char in
-                    HStack(alignment: .center) {
-                        Spacer()
-                        Button(char.name) {
-                            newChar = Character(name: char.name, title: char.title, birthday: char.birthday, showsAndMovies: char.showsAndMovies)
-                            
+                List {
+                    ForEach(data.characters) { character in
+                        NavigationLink {
+                            CharacterDetails(character: character)
+                                .navigationTitle(character.name)
+                        } label: {
+                            CharacterRow(character: character)
                         }
-                        .padding()
-                        .font(.title3)
-                        .foregroundColor(.green)
-                        
-                        Spacer()
-                    }
+                    }    
                 }
-            }
-            .navigationBarTitle("View Star Wars Characters")
-            
-            VStack {
-                Text(newChar.name.uppercased())
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .animation(.easeInOut, value: newChar.title)
-                    .foregroundColor(.blue)
-                
+                .padding()
+                .font(.title3)
+                .foregroundColor(.green)
                 Spacer()
-                HStack {
-                    
-                    Text(newChar.title)
-                        
-                        .frame(minWidth: 125)
-                        .scaledToFill()
-                    Text(newChar.birthday)
-//                  Iterate over each Movie/Show
-                }
-                Spacer()
-                
-            }
         }
     }
 }
