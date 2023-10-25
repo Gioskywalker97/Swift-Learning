@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>for i in 1 ... 13 {
+    if isOnGem &amp;&amp; isBlocked &amp;&amp; isBlockedLeft{
+        collectGem()
+    }  else if isBlocked || isBlockedLeft {
+        turnRight()
+        moveForward()
+    } else {
+        moveForward()
+    }
+</string>
+			<key>ModifiedRange</key>
+			<string>{1413, 214}</string>
+			<key>OriginalContent</key>
+			<string>for i in 1 ... 12 {
+</string>
+			<key>OriginalRange</key>
+			<string>{1413, 20}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document5.playgroundchapter/Pages/Exercise3.playgroundpage/main.swift</string>
+</dict>
+</plist>

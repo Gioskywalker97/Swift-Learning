@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>func check() {
+    if isOnClosedSwitch {
+        toggleSwitch()
+        moveForward()
+        
+    } else if isOnGem {
+        collectGem()
+        moveForward()
+        
+    } else {
+        moveForward()
+        
+    }
+    
+}
+func turnAndMove() {
+    turnLeft()
+    moveForward()
+    
+}
+
+moveForward()
+check()
+turnAndMove()
+check()
+turnAndMove()
+check()
+check()
+turnLeft()
+check()
+check()
+turnLeft()
+check()
+check()
+check()
+
+
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{885, 430}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{885, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document4.playgroundchapter/Pages/Challenge2.playgroundpage/main.swift</string>
+</dict>
+</plist>
