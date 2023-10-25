@@ -19,6 +19,14 @@ struct ContentView: View {
                         .navigationTitle("Creature Dancing")
                     }
                 }
+                Section("PARTY") {
+                    
+                        NavigationLink("Go to the Party") {
+                            PartyView()
+                                .navigationTitle("Animal Party")
+                        } 
+                
+                }
                 
                 /*#-code-walkthrough(forEach.id)*/
                 ForEach(data.creatures) { creature in 

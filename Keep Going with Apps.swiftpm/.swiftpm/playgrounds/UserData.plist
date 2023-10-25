@@ -18,6 +18,8 @@
 			<string>addNavigationTitleCreatureEditor</string>
 			<string>customizeConditionalViews</string>
 			<string>addShadowModifier</string>
+			<string>createNewApp</string>
+			<string>createYourOwn</string>
 			<string>addATextView</string>
 			<string>addNewConditionalView</string>
 			<string>deleteACreature</string>
@@ -175,11 +177,11 @@
 			</array>
 		</dict>
 		<key>stepIndex</key>
-		<integer>8</integer>
+		<integer>9</integer>
 		<key>successMessageShowing</key>
-		<true/>
+		<false/>
 		<key>taskID</key>
-		<string>$null</string>
+		<string>createYourOwn</string>
 	</dict>
 </dict>
 </plist>

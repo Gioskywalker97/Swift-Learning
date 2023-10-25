@@ -14,6 +14,19 @@ class CreatureZoo : ObservableObject {
         Creature(name: "Squid", emoji: "🦑"),
         Creature(name: "Alligator", emoji: "🐊"),
         Creature(name: "T-Rex", emoji: "🦖"),
+        Creature(name: "Bee", emoji: "🐝"),
+        //#-learning-code-snippet(addCreatures)
+        //#-learning-code-snippet(addOneMoreCreature)
+    ]
+    /*#-code-walkthrough(creatureZoo.published)*/ @Published /*#-code-walkthrough(creatureZoo.published)*/var creaturs = [
+        /*#-code-walkthrough(creatureZoo.creature)*/
+        Creature(name: "Gorilla", emoji: "🦍"),
+        /*#-code-walkthrough(creatureZoo.creature)*/
+        Creature(name: "Peacock", emoji: "🦚"),
+        Creature(name: "Squid", emoji: "🦑"),
+        Creature(name: "Alligator", emoji: "🐊"),
+        Creature(name: "T-Rex", emoji: "🦖"),
+        Creature(name: "Bee", emoji: "🐝"),
         //#-learning-code-snippet(addCreatures)
         //#-learning-code-snippet(addOneMoreCreature)
     ]
@@ -31,6 +44,12 @@ struct Creature : Identifiable {
 }
 /*#-code-walkthrough(creatureZoo.creatureStruct)*/
 
+struct Creatur : Identifiable, Hashable {
+    var name : String
+    var emoji : String
+    
+    var id = UUID()
+}
 
 // Should be hidden probably
 extension CreatureZoo {

@@ -28,6 +28,7 @@ struct CreatureEditor: View {
                 ToolbarItem {
                     Button("Add") {
                         data.creatures.append(newCreature)
+                        data.creaturs.append(newCreature)
                         dismiss()
                     }
                 }
