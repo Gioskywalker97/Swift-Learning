@@ -15,11 +15,18 @@ struct CharacterDetails: View {
             HStack {
                 
                 Text(character.title)
-                
                     .frame(minWidth: 125)
                     .scaledToFill()
                 Text(character.birthday)
                 //Iterate over each Movie/Show
+                VStack {
+                    List {
+                        //TODO
+                        //ForEach(character.showsAndMovies[]) { char in
+                            //Text("Hello")
+                        //}
+                    }
+                }
             }
             Spacer()
             
