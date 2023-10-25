@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var gemCounter = 0
+let expert = Expert()
+let char1 = Character()
+let char2 = Character()
+let char3 = Character()
+world.place(expert, facing: north, atColumn: 0, row: 4)
+world.place(char1, facing: south, atColumn: 2, row: 6)
+world.place(char2, facing: south, atColumn: 3, row: 6)
+world.place(char3, facing: south, atColumn: 4, row: 6)
+
+func checkTile() {
+    if char1.isOnGem {
+        char1.collectGem()
+        gemCounter += 1
+    }
+    if char2.isOnGem {
+        char2.collectGem()
+        gemCounter += 1
+    } 
+    if char3.isOnGem {
+        char3.collectGem()
+        gemCounter += 1
+    }
+}
+
+func jump(moves: Int) {
+    for i in 1 ... moves{
+        checkTile()
+        char1.jump()
+        char2.jump()
+        char3.jump()
+    }
+}
+
+func turnAround() {
+    char1.turnRight()
+    char1.turnRight()
+    char2.turnRight()
+    char2.turnRight()
+    char3.turnRight()
+    char3.turnRight()
+}
+
+
+while gemCounter &lt; totalGems {
+    jump(moves: 7)
+    turnAround()
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1499, 965}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1499, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document11.playgroundchapter/Pages/Challenge3.playgroundpage/main.swift</string>
+</dict>
+</plist>

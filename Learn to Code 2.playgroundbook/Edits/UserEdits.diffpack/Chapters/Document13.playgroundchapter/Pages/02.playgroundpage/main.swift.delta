@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2353, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex02k1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2353, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2398, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{2431, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    Coordinate(column: 0, row: 3),
+    Coordinate(column: 3, row: 0)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2491, 69}</string>
+			<key>OriginalContent</key>
+			<string>    &lt;#Insert a new coordinate#&gt;
+</string>
+			<key>OriginalRange</key>
+			<string>{2549, 32}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2562, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex02k2)
+</string>
+			<key>OriginalRange</key>
+			<string>{2583, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>for coordinate in blockLocations {
+    for i in 1 ... 5 {
+        world.place(Block(), at: coordinate)
+    }
+</string>
+			<key>ModifiedRange</key>
+			<string>{2603, 109}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+for coordinate in &lt;#T##array name##[Coordinate]#&gt; {
+
+</string>
+			<key>OriginalRange</key>
+			<string>{2657, 78}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/02.playgroundpage/main.swift</string>
+</dict>
+</plist>

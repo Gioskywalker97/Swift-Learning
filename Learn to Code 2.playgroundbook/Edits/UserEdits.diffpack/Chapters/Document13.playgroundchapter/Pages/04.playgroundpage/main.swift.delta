@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2687, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex04k1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2687, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    if coordinate.column &gt; 5 || coordinate.row &lt; 4 {
+</string>
+			<key>ModifiedRange</key>
+			<string>{2748, 53}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+    if coordinate.column &gt; 2 &amp;&amp; coordinate.row &lt; 5 {
+//#-localizable-zone(ch13ex04k2)
+</string>
+			<key>OriginalRange</key>
+			<string>{2781, 111}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>        blockSet.append(coordinate)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2843, 36}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+        
+</string>
+			<key>OriginalRange</key>
+			<string>{2934, 34}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2888, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex04k3)
+</string>
+			<key>OriginalRange</key>
+			<string>{2977, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>for item in blockSet {
+    for i in 1 ... 6 {
+        world.place(Block(), at: item)
+    }
+</string>
+			<key>ModifiedRange</key>
+			<string>{2942, 91}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+for &lt;#item#&gt; in &lt;#array#&gt; {
+    
+</string>
+			<key>OriginalRange</key>
+			<string>{3064, 58}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/04.playgroundpage/main.swift</string>
+</dict>
+</plist>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>purplePortal.isActive = false
+var switchCounter = 0
+var gemCounter = 0
+func turning() {
+    if isBlocked &amp;&amp; isBlockedLeft &amp;&amp; isBlockedRight {
+        turnLeft()
+        turnLeft()
+        purplePortal.isActive = true
+    }else if isBlocked &amp;&amp; isBlockedRight {
+        turnLeft()
+        turnLeft()
+    }
+    
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1397, 311}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1397, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>while gemCounter &lt; 7 {
+    moveForward()
+    if isOnGem { 
+        collectGem()
+        gemCounter += 1
+    }else if isOnClosedSwitch {
+        toggleSwitch()
+        switchCounter += 1
+        purplePortal.isActive = false
+    }
+    turning()
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1709, 246}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1398, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document9.playgroundchapter/Pages/Challenge1.playgroundpage/main.swift</string>
+</dict>
+</plist>

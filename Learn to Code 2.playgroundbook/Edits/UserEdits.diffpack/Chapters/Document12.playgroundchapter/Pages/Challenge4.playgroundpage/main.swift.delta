@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>world.place(Block(), atColumn: 2, row: 2)
+world.place(Block(), atColumn: 3, row: 2)
+world.place(Block(), atColumn: 3, row: 2)
+world.place(Block(), atColumn: 3, row: 1)
+world.place(Gem(), atColumn: 3, row: 1)
+world.place(Switch(), atColumn: 4, row: 1)
+world.place(Block(), atColumn: 4, row: 1)
+world.place(Block(), atColumn: 4, row: 1)
+world.place(Block(), atColumn: 4, row: 2)
+world.place(Block(), atColumn: 4, row: 2)
+world.place(Block(), atColumn: 4, row: 3)
+world.place(Block(), atColumn: 4, row: 3)
+</string>
+			<key>ModifiedRange</key>
+			<string>{1868, 503}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{1868, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document12.playgroundchapter/Pages/Challenge4.playgroundpage/main.swift</string>
+</dict>
+</plist>

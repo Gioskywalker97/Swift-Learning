@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var gemCounter = 0
+var switchCounter = 0
+func turning() {
+    if isBlocked &amp;&amp; isBlockedLeft {
+        turnRight()
+    }
+}
+while !isOnGem {
+    moveForward()
+}
+collectGem()
+gemCounter += 1
+while switchCounter &lt; gemCounter {
+    turning()
+    if isOnGem {
+        collectGem()
+        gemCounter += 1
+    }
+    if isOnClosedSwitch {
+        toggleSwitch()
+        switchCounter += 1
+    }
+    moveForward()
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1634, 407}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1634, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document8.playgroundchapter/Pages/Challenge3.playgroundpage/main.swift</string>
+</dict>
+</plist>

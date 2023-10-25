@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2789, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex06k1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2789, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var row2 = world.row(2)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2837, 24}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+
+//#-localizable-zone(ch13ex06k2)
+</string>
+			<key>OriginalRange</key>
+			<string>{2870, 59}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var coords: [Coordinate] = []
+</string>
+			<key>ModifiedRange</key>
+			<string>{2902, 30}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+
+</string>
+			<key>OriginalRange</key>
+			<string>{2970, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    for coordinate in row2 {
+        world.place(Block(), at: coordinate)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2951, 74}</string>
+			<key>OriginalContent</key>
+			<string>    for &lt;#coordinate#&gt; in &lt;#row 2#&gt; {
+        world.place(Block(), at: &lt;#coordinate#&gt;)
+</string>
+			<key>OriginalRange</key>
+			<string>{3015, 87}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3031, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex06k3)
+</string>
+			<key>OriginalRange</key>
+			<string>{3108, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    var new = row2.remove(at: 0)
+    coords.append(new)
+</string>
+			<key>ModifiedRange</key>
+			<string>{3093, 56}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+    
+</string>
+			<key>OriginalRange</key>
+			<string>{3203, 30}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3152, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex06k4)
+</string>
+			<key>OriginalRange</key>
+			<string>{3236, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>for coor in coords {
+    world.place(Character(), facing: north, at: coor)
+</string>
+			<key>ModifiedRange</key>
+			<string>{3220, 75}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+for &lt;#item#&gt; in &lt;#array#&gt; {
+    
+</string>
+			<key>OriginalRange</key>
+			<string>{3337, 58}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/06.playgroundpage/main.swift</string>
+</dict>
+</plist>

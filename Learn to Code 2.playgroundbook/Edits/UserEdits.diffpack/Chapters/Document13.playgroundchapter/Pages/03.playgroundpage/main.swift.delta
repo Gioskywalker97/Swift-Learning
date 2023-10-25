@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2790, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex03k1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2790, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>characters.remove(at: 1)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2812, 25}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+
+//#-localizable-zone(ch13ex03k2)
+</string>
+			<key>OriginalRange</key>
+			<string>{2845, 59}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>characters.remove(at: 2)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2856, 25}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+
+//#-localizable-zone(ch13ex03k3)
+</string>
+			<key>OriginalRange</key>
+			<string>{2923, 59}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>characters.insert(Expert(), at: 1)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2903, 35}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+
+</string>
+			<key>OriginalRange</key>
+			<string>{3004, 26}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/03.playgroundpage/main.swift</string>
+</dict>
+</plist>

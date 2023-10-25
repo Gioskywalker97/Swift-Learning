@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2517, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex11k1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2517, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2545, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{2578, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2806, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex11k2)
+</string>
+			<key>OriginalRange</key>
+			<string>{2864, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2831, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{2922, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3138, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex11k3)
+</string>
+			<key>OriginalRange</key>
+			<string>{3254, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3173, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{3322, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>8</string>
+			<key>ModifiedRange</key>
+			<string>{3234, 1}</string>
+			<key>OriginalContent</key>
+			<string>4</string>
+			<key>OriginalRange</key>
+			<string>{3408, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>6</string>
+			<key>ModifiedRange</key>
+			<string>{3391, 1}</string>
+			<key>OriginalContent</key>
+			<string>4</string>
+			<key>OriginalRange</key>
+			<string>{3565, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>1</string>
+			<key>ModifiedRange</key>
+			<string>{3526, 1}</string>
+			<key>OriginalContent</key>
+			<string>2</string>
+			<key>OriginalRange</key>
+			<string>{3700, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3677, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex11k4)
+</string>
+			<key>OriginalRange</key>
+			<string>{3851, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3720, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{3927, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3882, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex11k5)
+</string>
+			<key>OriginalRange</key>
+			<string>{4114, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3903, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{4168, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>4</string>
+			<key>ModifiedRange</key>
+			<string>{4054, 1}</string>
+			<key>OriginalContent</key>
+			<string>7</string>
+			<key>OriginalRange</key>
+			<string>{4344, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>grumbleGrumble</string>
+			<key>ModifiedRange</key>
+			<string>{4093, 14}</string>
+			<key>OriginalContent</key>
+			<string>breakItDown</string>
+			<key>OriginalRange</key>
+			<string>{4383, 11}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>fals</string>
+			<key>ModifiedRange</key>
+			<string>{4175, 4}</string>
+			<key>OriginalContent</key>
+			<string>tru</string>
+			<key>OriginalRange</key>
+			<string>{4462, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4198, 0}</string>
+			<key>OriginalContent</key>
+			<string>1</string>
+			<key>OriginalRange</key>
+			<string>{4484, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{4220, 0}</string>
+			<key>OriginalContent</key>
+			<string>    blu.turnLeft()
+    blu.turnLeft()
+</string>
+			<key>OriginalRange</key>
+			<string>{4507, 38}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/11.playgroundpage/main.swift</string>
+</dict>
+</plist>

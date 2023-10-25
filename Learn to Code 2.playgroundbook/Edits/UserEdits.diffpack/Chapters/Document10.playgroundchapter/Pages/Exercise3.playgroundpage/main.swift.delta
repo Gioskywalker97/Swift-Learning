@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>Exper</string>
+			<key>ModifiedRange</key>
+			<string>{1494, 5}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#ini</string>
+			<key>OriginalRange</key>
+			<string>{1494, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>()</string>
+			<key>ModifiedRange</key>
+			<string>{1500, 2}</string>
+			<key>OriginalContent</key>
+			<string>ialize#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1500, 8}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>Charac</string>
+			<key>ModifiedRange</key>
+			<string>{1561, 6}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#ini</string>
+			<key>OriginalRange</key>
+			<string>{1567, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1568, 0}</string>
+			<key>OriginalContent</key>
+			<string>ializ</string>
+			<key>OriginalRange</key>
+			<string>{1573, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>r()</string>
+			<key>ModifiedRange</key>
+			<string>{1569, 3}</string>
+			<key>OriginalContent</key>
+			<string>#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1579, 2}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>expert.moveForward()
+expert.turnLockUp()
+
+var gemCounter = 0
+var steps = 0
+func checkTile() {
+    if character.isOnGem {
+        character.collectGem()
+        gemCounter += 1
+    }
+}
+func move() {
+    if !character.isBlocked &amp;&amp; character.isBlockedLeft &amp;&amp; !character.isBlockedRight{
+        character.turnRight()
+    }
+}
+
+while steps &lt; 4 {
+    character.moveForward()
+    checkTile()
+    move()
+    steps += 1
+}
+expert.turnLockDown()
+expert.turnLockDown()
+character.moveForward()
+checkTile()
+</string>
+			<key>ModifiedRange</key>
+			<string>{1915, 492}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{1924, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document10.playgroundchapter/Pages/Exercise3.playgroundpage/main.swift</string>
+</dict>
+</plist>

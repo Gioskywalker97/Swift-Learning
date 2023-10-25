@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2167, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex00k1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2167, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var rows = [0, 1, 2, 3, 4, 5]
+</string>
+			<key>ModifiedRange</key>
+			<string>{2206, 30}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+var rows = [0, 1, 3, 4]
+</string>
+			<key>OriginalRange</key>
+			<string>{2239, 49}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2237, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex00k2)
+</string>
+			<key>OriginalRange</key>
+			<string>{2289, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2280, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{2365, 25}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/00.playgroundpage/main.swift</string>
+</dict>
+</plist>

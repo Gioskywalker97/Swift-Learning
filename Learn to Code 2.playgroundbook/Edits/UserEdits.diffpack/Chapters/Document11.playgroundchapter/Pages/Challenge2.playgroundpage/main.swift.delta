@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let char1 = Character()
+let char2 = Character()
+let exp1 = Expert()
+let exp2 = Expert()
+
+
+world.place(char1, facing: north, atColumn: 0, row: 0)
+world.place(char2, facing: west, atColumn: 6, row: 4)
+world.place(exp1, facing: east, atColumn: 6, row: 0)
+world.place(exp2, facing: north, atColumn: 3, row: 0)
+
+func checkTile() {
+    if char2.isOnGem {
+        char2.collectGem()
+    }
+}
+func jump(moves: Int) {
+    for i in 1 ... moves{
+        checkTile()
+        char2.jump()
+    }
+}
+
+char1.collectGem()
+exp1.turnLock(up: false, numberOfTimes: 2)
+exp2.turnLock(up: true, numberOfTimes: 2)
+jump(moves: 7)
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1487, 604}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1487, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document11.playgroundchapter/Pages/Challenge2.playgroundpage/main.swift</string>
+</dict>
+</plist>

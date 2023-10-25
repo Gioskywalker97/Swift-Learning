@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>world.place(Stair(), facing: south, atColumn: 3, row: 1)
+world.place(Stair(), facing: south, atColumn: 3, row: 3)
+world.place(Stair(), facing: north, atColumn: 3, row: 7)
+world.place(Stair(), facing: east, atColumn: 5, row: 6)
+world.place(Stair(), facing: west, atColumn: 1, row: 6)
+
+func turnAround() {
+    turnLeft()
+    turnLeft()
+}
+
+func switches() {
+    toggleSwitch()
+    if isBlocked &amp;&amp; isBlockedLeft {
+        turnRight()
+    }else if isBlocked &amp;&amp; isBlockedRight {
+        turnLeft()
+    }
+    moveForward()
+    toggleSwitch()
+    moveForward()
+    toggleSwitch()
+    turnAround()
+}
+
+
+move(distance: 8)
+toggleSwitch()
+turnLeft()
+moveForward()
+toggleSwitch()
+turnAround()
+move(distance: 2)
+toggleSwitch()
+turnAround()
+moveForward()
+turnLeft()
+move(distance: 2)
+turnLeft()
+move(distance: 3)
+switches()
+move(distance: 2)
+turnLeft()
+move(distance: 6)
+switches()
+</string>
+			<key>ModifiedRange</key>
+			<string>{2121, 866}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{2121, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document12.playgroundchapter/Pages/Exercise3.playgroundpage/main.swift</string>
+</dict>
+</plist>

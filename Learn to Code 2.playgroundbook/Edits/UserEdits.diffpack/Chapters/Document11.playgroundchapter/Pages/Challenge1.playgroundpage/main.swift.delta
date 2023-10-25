@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let expert = Expert()
+let character = Character()
+
+func gem() {
+    expert.collectGem()
+    expert.moveForward()
+}
+
+
+world.place(expert, facing: south, atColumn: 1, row: 8)
+world.place(character, facing: north, atColumn: 5, row: 1)
+for i in 1 ... 4 {
+    gem()
+}
+expert.turnLock(up: false, numberOfTimes: 1)
+expert.turnLeft()
+expert.move(distance: 3)
+for i in 1 ... 2 {
+    gem()
+}
+expert.turnRight()
+expert.moveForward()
+expert.collectGem()
+character.collectGem()
+character.moveForward()
+character.collectGem()
+</string>
+			<key>ModifiedRange</key>
+			<string>{2188, 512}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{2188, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document11.playgroundchapter/Pages/Challenge1.playgroundpage/main.swift</string>
+</dict>
+</plist>

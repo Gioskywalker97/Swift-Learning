@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var gemCounter = 0
+bluePortal.isActive = true
+pinkPortal.isActive = true
+
+func checkTile() {
+    if isOnGem {
+            collectGem()
+            gemCounter += 1
+        }
+}
+func moving() {
+    moveForward()
+    if isBlocked {
+        turnAround()
+        if bluePortal.isActive  || pinkPortal.isActive{
+            bluePortal.isActive = false
+            pinkPortal.isActive = false
+        }
+        else if !bluePortal.isActive  || !pinkPortal.isActive{
+            bluePortal.isActive = true
+            pinkPortal.isActive = true
+        }
+    }
+}
+
+func turnAround() {
+    turnLeft()
+    turnLeft()
+}
+
+while gemCounter &lt; totalGems {
+    checkTile()
+    moving()
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1478, 670}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1478, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document9.playgroundchapter/Pages/Challenge3.playgroundpage/main.swift</string>
+</dict>
+</plist>

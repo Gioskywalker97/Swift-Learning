@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>Exper</string>
+			<key>ModifiedRange</key>
+			<string>{1452, 5}</string>
+			<key>OriginalContent</key>
+			<string>&lt;#ini</string>
+			<key>OriginalRange</key>
+			<string>{1452, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>()</string>
+			<key>ModifiedRange</key>
+			<string>{1458, 2}</string>
+			<key>OriginalContent</key>
+			<string>ialize#&gt;</string>
+			<key>OriginalRange</key>
+			<string>{1458, 8}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var gemCounter = 0
+func checkTile() {
+    if expert.isOnGem {
+        expert.collectGem()
+        gemCounter += 1
+    }
+}
+
+func turnAround() {
+    expert.turnLeft()
+    expert.turnLeft()
+}
+
+func blocked() {
+    if expert.isBlocked &amp;&amp; expert.isBlockedLeft &amp;&amp; expert.isBlockedRight {
+        turnAround()
+    }else if expert.isBlocked &amp;&amp; expert.isBlockedLeft {
+        turnAround()
+    }else if expert.isBlocked &amp;&amp; expert.isBlockedRight {
+        turnAround()
+    }else if !expert.isBlocked &amp;&amp; !expert.isBlockedLeft &amp;&amp; !expert.isBlockedRight {
+        expert.moveForward()
+    }
+}
+func move() {
+    expert.moveForward()
+    expert.moveForward()
+    expert.turnLeft()
+}
+
+while gemCounter &lt; 1 {
+    expert.moveForward()
+    checkTile()
+    blocked()
+}
+while gemCounter &lt; 2 {
+    expert.moveForward()
+    checkTile()
+}
+expert.turnLockDown()
+turnAround()
+move()
+while gemCounter &lt; 4 {
+    expert.moveForward()
+    checkTile()
+    blocked()
+}
+move()
+while gemCounter &lt; 6 {
+    expert.moveForward()
+    checkTile()
+    blocked()
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1686, 1023}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{1692, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document10.playgroundchapter/Pages/Challenge1.playgroundpage/main.swift</string>
+</dict>
+</plist>

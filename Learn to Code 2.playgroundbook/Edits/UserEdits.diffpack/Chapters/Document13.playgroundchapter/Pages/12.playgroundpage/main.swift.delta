@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let allCoordinates = world.allPossibleCoordinates
+
+var tiles = [Block(), Gem(), Character(), Switch(), Stair(), Expert(), Platform(), Portal(color: #colorLiteral(red: 0.0, green: 0.2136589885, blue: 0.2883136272, alpha: 1.0)), PlatformLock()] as [Item]
+
+var items: [Item] = []
+
+var counter = 0
+for coordinate in allCoordinates {
+    let n = randomInt(from: 0, to: 8)
+    let item = tiles[n]
+    items.append(item)
+    world.place(items[counter], at: coordinate)
+    counter += 1
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{2533, 481}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{2533, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/12.playgroundpage/main.swift</string>
+</dict>
+</plist>

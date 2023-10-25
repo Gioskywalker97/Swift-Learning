@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2470, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex05k1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2470, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>var islands: [Coordinate] = []
+var seas: [Coordinate] = []
+</string>
+			<key>ModifiedRange</key>
+			<string>{2519, 59}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{2552, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    if coordinate.column &lt; 7 &amp;&amp; coordinate.column &gt; 3 &amp;&amp; coordinate.row &gt; 3 &amp;&amp; coordinate.row &lt; 7 {
+</string>
+			<key>ModifiedRange</key>
+			<string>{2614, 100}</string>
+			<key>OriginalContent</key>
+			<string>    if &lt;#condition#&gt; {
+//#-localizable-zone(ch13ex05k2)
+</string>
+			<key>OriginalRange</key>
+			<string>{2613, 56}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>        islands.append(coordinate)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2749, 35}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+        
+</string>
+			<key>OriginalRange</key>
+			<string>{2704, 34}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2797, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex05k3)
+</string>
+			<key>OriginalRange</key>
+			<string>{2751, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>        seas.append(coordinate)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2829, 32}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+        
+</string>
+			<key>OriginalRange</key>
+			<string>{2816, 34}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2869, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex05k4)
+</string>
+			<key>OriginalRange</key>
+			<string>{2858, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>for island in islands {
+    world.place(Block(), at: island)
+</string>
+			<key>ModifiedRange</key>
+			<string>{2909, 61}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+for &lt;#item#&gt; in &lt;#array#&gt; {
+    
+</string>
+			<key>OriginalRange</key>
+			<string>{2931, 58}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2973, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex05k5)
+</string>
+			<key>OriginalRange</key>
+			<string>{2992, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>for sea in seas {
+    world.removeAllBlocks(at: sea)
+    world.place(Water(), at: sea)
+</string>
+			<key>ModifiedRange</key>
+			<string>{3009, 87}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+for &lt;#item#&gt; in &lt;#array#&gt; {
+    
+</string>
+			<key>OriginalRange</key>
+			<string>{3061, 58}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/05.playgroundpage/main.swift</string>
+</dict>
+</plist>

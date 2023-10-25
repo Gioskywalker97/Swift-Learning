@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{2746, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex09k1)
+</string>
+			<key>OriginalRange</key>
+			<string>{2746, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>    for i in 1 ... 14 {
+        let localNumber = randomInt(from: 1, to: 14)
+        heights.append(localNumber)
+    }
+</string>
+			<key>ModifiedRange</key>
+			<string>{2783, 119}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+
+</string>
+			<key>OriginalRange</key>
+			<string>{2816, 26}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3012, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex09k2)
+</string>
+			<key>OriginalRange</key>
+			<string>{2952, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3073, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+</string>
+			<key>OriginalRange</key>
+			<string>{3046, 25}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3146, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex09k3)
+</string>
+			<key>OriginalRange</key>
+			<string>{3144, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>        world.place(Gem(), at: coordinate)
+        
+</string>
+			<key>ModifiedRange</key>
+			<string>{3214, 52}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+
+
+</string>
+			<key>OriginalRange</key>
+			<string>{3245, 27}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3407, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex09k4)
+</string>
+			<key>OriginalRange</key>
+			<string>{3413, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>            world.place(Character(), at: coordinate)
+            world.place(Switch(), at: coordinate)
+</string>
+			<key>ModifiedRange</key>
+			<string>{3475, 103}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+            
+</string>
+			<key>OriginalRange</key>
+			<string>{3514, 38}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3646, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex09k5)
+</string>
+			<key>OriginalRange</key>
+			<string>{3620, 33}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>            world.place(Water(), at: coordinate)
+            // Add more rules to customize your world.
+        }else if coordinate.row == 2 &amp;&amp; coordinate.column == 1 {
+            world.place(Expert(), facing: north, at: coordinate)
+</string>
+			<key>ModifiedRange</key>
+			<string>{3708, 234}</string>
+			<key>OriginalContent</key>
+			<string>//#-end-localizable-zone
+            
+</string>
+			<key>OriginalRange</key>
+			<string>{3715, 38}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{3952, 0}</string>
+			<key>OriginalContent</key>
+			<string>//#-localizable-zone(ch13ex09k6)
+        // Add more rules to customize your world.
+//#-end-localizable-zone
+
+        
+</string>
+			<key>OriginalRange</key>
+			<string>{3763, 119}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document13.playgroundchapter/Pages/09.playgroundpage/main.swift</string>
+</dict>
+</plist>

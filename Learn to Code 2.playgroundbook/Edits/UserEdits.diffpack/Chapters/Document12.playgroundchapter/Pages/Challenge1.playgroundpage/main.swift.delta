@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>let block1 = Block()
+let block2 = Block()
+let block3 = Block()
+let block4 = Block()
+let block5 = Block()
+
+world.place(block1, atColumn: 2, row: 2)
+world.place(block2, atColumn: 2, row: 2)
+world.place(block3, atColumn: 4, row: 2)
+world.place(block4, atColumn: 6, row: 2)
+world.place(block5, atColumn: 6, row: 2)
+
+func turnAround() {
+    if isBlocked {
+        turnLeft()
+        turnLeft()
+    }
+}
+
+
+for i in 1 ... 3 {
+    move(distance: 2)
+    toggleSwitch()
+    turnRight()
+    move(distance: 4)
+    collectGem()
+    turnAround()
+    move(distance: 4)
+    turnRight()
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{1286, 571}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{1286, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document12.playgroundchapter/Pages/Challenge1.playgroundpage/main.swift</string>
+</dict>
+</plist>
