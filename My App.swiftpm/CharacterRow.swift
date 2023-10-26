@@ -5,14 +5,20 @@ struct CharacterRow: View {
     
     var body: some View {
         HStack {
-            Text(character.name)
-                .font(.title)
-            
-            Spacer()
-            
-            Text(character.title)
-                .font(.subheadline)
-                
+            Image("StarWars")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50, height: 50, alignment: .leading)
+            VStack(alignment: .center) {
+                Text(character.name)
+                    .font(.title)
+                    .fontWeight(.bold)
+                Text(character.title)
+                    .font(.subheadline)
+                    .fontWeight(.medium)
+            }
+            .padding([.leading])
+            .frame(width: 275, height: 150, alignment: .center)
         }
         
         
@@ -21,6 +27,6 @@ struct CharacterRow: View {
 
 struct CharacterRow_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterRow(character: Character(name: "Yoda", title: "Master Jedi", birthday: "", showsAndMovies: []))
+        CharacterRow(character: Character(name: "Anakin Skywalker", title: "Jedi Knight", profilePic: "Ani", showsAndMovies: ["The Clone Wars"], desc: ["","","","",""]))
     }
 }

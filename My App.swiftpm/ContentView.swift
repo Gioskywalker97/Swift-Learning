@@ -5,15 +5,20 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("🔫")
+            Image("StarWars")
+                .resizable()
+                .scaledToFit()
             Section("Star Wars 101") {
-                
                 NavigationLink("View the Characters") {
                     Characters()
                         .navigationTitle("Characters")
-                } 
-                
+                }
+                .font(.title2)
+                .fontWeight(.medium)
+                .padding(1)
             }
+            .font(.largeTitle)
+            .fontWeight(.heavy)
         }
     }
 }

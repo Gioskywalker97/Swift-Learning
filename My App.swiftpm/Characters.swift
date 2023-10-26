@@ -19,7 +19,7 @@ struct Characters: View {
                 }
                 .padding()
                 .font(.title3)
-                .foregroundColor(.green)
+                .foregroundColor(.cyan)
                 Spacer()
         }
     }
