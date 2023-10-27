@@ -12,11 +12,23 @@ struct Characters: View {
                             Favorites()
                                 .navigationTitle("Favorites")
                         }
-                    }    
+                    }
+                    .frame(width: 400, height: 100, alignment: .leading)
+                    VStack {
+                        ForEach(data.characters) { character in
+                            NavigationLink {
+                                CharacterDetails(character: character)
+                                    .navigationTitle(character.name)
+                            } label: {
+                                CharacterRow(character: character)
+                            }
+                        }    
                         .padding()
+                        .font(.title3)
+                        .foregroundColor(.cyan)
+                        Spacer()
+                    }
                 }
-                .font(.title3)
-                Spacer()
         }
     }
 }
