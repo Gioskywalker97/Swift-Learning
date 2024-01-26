@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Error-Handling.playground">
+   </FileRef>
+   <FileRef
+      location = "group:API.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Optionals.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Generics.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Extensions.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Protocols.playground">
+   </FileRef>
+   <FileRef
       location = "group:Classes.playground">
    </FileRef>
    <FileRef
